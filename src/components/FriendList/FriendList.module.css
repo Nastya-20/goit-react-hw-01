@@ -22,7 +22,6 @@
     align-items: center;
    margin-right: 15px;
 }
-
 .avatar {
     margin: 0;
     width: 80px;
@@ -47,5 +46,5 @@
 }
 
 .offline {
-    color: red;
+    color: #f73c39;
 }

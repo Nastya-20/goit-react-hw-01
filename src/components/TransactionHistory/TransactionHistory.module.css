@@ -1,0 +1,39 @@
+.transactionTable {
+    width: 850px;
+    border-collapse: collapse;
+    background-color: #fff;
+    font-family: 'Arial', sans-serif;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.transactionTable th,
+.transactionTable td {
+    padding: 12px 100px;
+    border: 1px solid #ddd;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.transactionTable th {
+    background-color: #333;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+}
+
+.transactionTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+.transactionTable tr:hover {
+    background-color: #eaeaea;
+}
+
+.transactionTable td {
+    font-size: 18px;
+    color: #333;
+    text-transform: capitalize;
+}
+

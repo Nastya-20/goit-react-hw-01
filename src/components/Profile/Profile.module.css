@@ -18,7 +18,6 @@
 
  .nickName {
     color: #000000;
-    margin-top: 20px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     font-size: 50px;
@@ -26,6 +25,7 @@
     letter-spacing: -0.02em;
     text-align: center;
     margin-top: 32px;
+    margin-bottom: 15px;
  }
 .location,
 .tag {
@@ -79,5 +79,4 @@
 }
 .stats {
     font-weight: 700;
-    letter-spacing: 0px;
 }
