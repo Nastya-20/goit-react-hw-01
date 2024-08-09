@@ -1,0 +1,40 @@
+.friendItem {
+    width: 120px;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #7e7c7c;
+    border-radius: 5px;
+    padding: 10px;
+    transition: border-color 0.3s ease;
+}
+.avatar {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+.nameFriend {
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 120%;
+    letter-spacing: 1px;
+    color: #000000;
+}
+.friendItem:hover {
+    border-color: #3ab362;
+}
+
+.online {
+    color: green;
+    margin: 0;
+}
+
+.offline {
+    color: red;
+    margin: 0;
+}
